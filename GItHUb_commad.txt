@@ -74,20 +74,10 @@ git pull origin master - to make sure u're up to date
 git remote - to give location for push ur chnges// not neccessary when u pull main origin
 git push origin master - pushing chnges to master
 
-Branching and Stuff
+Branching and Stuff/and to create new branch
 git branch- show all branch
 git branch Bname - cretes the brach with Bname
 git checkout Bname-switch you to that branch to work your local save on that git branch
-
-
-To create a new branch 
-git checkout -b <branch name> (this cmd will create a new branch and will take in that branch.)
-if you have already has branch in your local 
-git checkout <branch name>
-if you have already has branch in bitbucket but in your local
-git fetch --all
-git cehckout <branch name>
-
 
 Merging branch to master branch 
 git checkout master - move to master branch
