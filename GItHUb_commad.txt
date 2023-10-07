@@ -91,4 +91,8 @@ git cehckout <branch name>
 
 Merging branch to master branch 
 git checkout master - move to master branch
- yh do
+git pull origin master - make sure everything is up to date on your master branch before you merge 
+these below two command work are same - is to merging the branch
+1. git branch --merged 
+2. git merge Bname(branch name)
+git puch origin master - to push all chnges
