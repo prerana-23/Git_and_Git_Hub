@@ -10,11 +10,25 @@ these below three point for git directory
 **note: if any conflict is there. first solve that conflict and repeat the step from line no 3.
 git push origin <branch name>
 
-.gitignore - a file used to ignore the file which u don't want to get track of, by git 
+.gitignore - a file used to ignore the file which u don't want to get track of, by git  if u want to igonore same extension all file from folder then write like that (*.html) in gitignore
 git remote -  setting address of the location where the changes will be pushed to 
 git log - show the hash code and detailabout the recent commit 
 git status - show the current tracket and untracked files 
 git reset - make all files are un tracked
+git clone address(which u make clone)- clone/copies the git files from internet to your computer
+git branch - show all branch
+$commit and pushing chnges on internet
+git add . -to add all file
+git commit -m "message"- to commit
+git pull origin master - to make sure u're up to date
+git remote - to give location for push ur chnges// not neccessary when u pull main origin
+git push origin master - pushing chnges to master
+
+Branching and Stuff
+git branch- show all branch
+git branch Bname - cretes the brach with Bname
+git checkout Bname-switch you to that branch to work your local save on that git branch
+
 
 To create a new branch 
 git checkout -b <branch name> (this cmd will create a new branch and will take in that branch.)
