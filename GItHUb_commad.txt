@@ -1,0 +1,19 @@
+working area command- git init - allow u to run any git command in that folder
+git status to check how may files in working area
+tracking area coomand - git add . -add every file in git's tracking zone
+stagging  area - git commit -m "msg" - stags the file to get pushed on next "push command"
+.gitignore - a file used to ignore the file which u don't want to get track of, by git 
+these below three point for git directory 
+1.git branch -M main
+2.git remote add origin https://github.com/prerana-23(username)/mydear.git(respositary name) -setting address of the location where the changes will be pushed to 
+3.git pull origin <branch name>
+**note: if any conflict is there. first solve that conflict and repeat the step from line no 3.
+git push origin <branch name>
+
+To create a new branch 
+git checkout -b <branch name> (this cmd will create a new branch and will take in that branch.)
+if you have already has branch in your local 
+git checkout <branch name>
+if you have already has branch in bitbucket but in your local
+git fetch --all
+git cehckout <branch name>
