@@ -10,6 +10,12 @@ these below three point for git directory
 **note: if any conflict is there. first solve that conflict and repeat the step from line no 3.
 git push origin <branch name>
 
+.gitignore - a file used to ignore the file which u don't want to get track of, by git 
+git remote -  setting address of the location where the changes will be pushed to 
+git log - show the hash code and detailabout the recent commit 
+git status - show the current tracket and untracked files 
+git reset - make all files are un tracked
+
 To create a new branch 
 git checkout -b <branch name> (this cmd will create a new branch and will take in that branch.)
 if you have already has branch in your local 
